@@ -1,0 +1,14 @@
+<polymer-element name="gplus-image" attributes="userid size">
+
+	<template>
+		<img src="https://plus.google.com/s2/photos/profile/{{userid}}?sz={{size}}" />
+	</template>
+
+	<script>
+		Polymer('gplus-image', {
+			userid: '',
+			size: '120'
+		});
+	</script>
+
+</polymer-element>
